@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Favorite Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 1rem;
+        }
+        .book-card {
+            background: white;
+            border-radius: 8px;
+            margin: 10px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .book-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .book-card h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .book-card p {
+            font-size: 0.9rem;
+            padding: 0 10px;
+        }
+        .rating {
+            color: gold;
+            margin: 10px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #333;
+            margin: 0 15px;
+            padding: 0.5rem 1rem;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background: #333;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> My Top 5 Fantasy Books</h1>
+    </header>
+    <div class="container">
+        <div class="book-card">
+            <img src="https://th.bing.com/th/id/OIP.5pxzGLITo9i3ooVUMc7OngAAAA?rs=1&pid=ImgDetMain">
+            <h3>Harry Potter And The Prisoner Of Azkaban</h3>
+            <p>Author: J.K. Rowling</p>
+            <p>Genre: Fantasy Adventure</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://i.pinimg.com/736x/88/7a/45/887a451e1cd18ad085f326d6f4fe104d--reading-lists-cover-art.jpg" >
+            <h3>Harry Potter And The Order Of The Phoenix</h3>
+            <p>Author: J.K. Rowling</p>
+            <p>Genre: Fantasy Adventure</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://storage.googleapis.com/lr-assets/kids/covers/_hires/9/Percy_Jackson_and_the_Ligthning_Thief_Jacket.jpg">
+            <h3>Percy Jackson And The Lightning Thief</h3>
+            <p>Author: Rick Riordan</p>
+            <p>Genre: Fantasy Adventure</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://th.bing.com/th/id/R.58d151a3ca759541319d2f815b2063ec?rik=RrBcdkh7TB%2b2YA&riu=http%3a%2f%2fimages.scholastic.co.uk%2fassets%2fa%2fa0%2fb6%2f132046-ml-518994.jpg&ehk=DpOivRKq2v%2biIKt0sBVDnO3BEJmV%2bll3PM4slc4pf7Y%3d&risl=&pid=ImgRaw&r=0">
+            <h3>How To Be A Pirate</h3>
+            <p>Author: Cressida Cowell</p>
+            <p>Genre: Fantasy</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+
+        <div class="book-card">
+            <img src="https://d3ddkgxe55ca6c.cloudfront.net/assets/t1497283819/a/46/07/132047-ml-518983.jpg">
+            <h3>How To Speak Dragonese</h3>
+            <p>Author: Cressida Cowell</p>
+            <p>Genre: Fantasy</p>
+            <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="Comedy.html">Comedy Books</a>
+    </nav>
+</body>
+</html>
